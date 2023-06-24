@@ -1,0 +1,139 @@
+.face{
+	background-color:rgba(135,169,107,.2);
+	height: 100vh;
+	width: 90vw;
+	padding: 1%;
+	margin: auto;
+
+}
+
+.navbar{
+	background-color:rgba(135,169,107,.2);
+	height: 10%;
+	width:;
+	border-radius:25px;
+	padding:1%;
+	
+	
+}
+.navname{
+	padding-left:1%;
+	width: 20%;
+	display:inline-block;
+}
+.searc{
+	padding-right:1%;
+	width:80%;
+	display:inline-block;
+}
+.searchtab{
+	width:85%;
+	margin-left:2%;
+}
+.butsearch{
+	margin-left:1%;
+}
+.bookskip{
+	background-color:rgba(135,169,107,.2);
+	height: 85%;
+	width:75%;
+	margin-top:1%;
+	margin-left: ;
+	margin-right: ;
+	position:grid;
+	border-radius:25px;
+}
+.skipleft{
+	height: 100%;
+	display:inline-flex;
+	width:5%;
+	padding:1%;
+	margin-top:;
+
+}
+.centerboxs{
+	background-color:rgba(135,120,107,.2);
+	height: 100%;
+	width:85%;
+	display:inline-block;
+	padding:3%;
+	border-radius:100px;
+
+	
+}
+.skipright{
+	height: 100%;
+	width:5%;
+	display:inline-flex;
+	padding:1%;
+
+
+}
+.Bookimg{
+	height:70%;
+	width:100%;
+	padding:1%;
+	display: flex;
+	justify-content: center;
+	background-color:rgba(135,169,107,.2);
+	border-top-right-radius: 10%;
+	border-top-left-radius:10%;
+	
+
+}
+.Booktext{
+	background-color:rgba(135,169,107,.2);
+	display: grid;
+	text-align: center;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius:10%;
+}
+.imgbook{
+}
+button.link { background:none; border:none; height:100%; width:100%; font-size:40px;}
+
+.fadeImage {
+  opacity: 0;
+  animation: fadeImage 0.3s ease-in-out forwards;
+}
+
+.fadeText {
+  opacity: 0;
+  animation: fadeText 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeImageOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeTextOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeImageIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeTextIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
